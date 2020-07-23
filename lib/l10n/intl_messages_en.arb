@@ -1,0 +1,84 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2020-06-21T16:26:57.695331",
+  "login": "Login",
+  "@login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "writePin": "Write Pin",
+  "@writePin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pin": "Pin",
+  "@pin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "loginInstructions": "Login Instructions",
+  "@loginInstructions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "emailHelper": "Email Helper",
+  "@emailHelper": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "Email",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phone": "Phone",
+  "@phone": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "information": "Information",
+  "@information": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "warning": "Warning",
+  "@warning": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "alert": "Alert",
+  "@alert": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "next": "Next",
+  "@next": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "done": "Done",
+  "@done": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "finish": "Finish",
+  "@finish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "accept": "Accept",
+  "@accept": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "optional": "Optional",
+  "@optional": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "@@locale": "es",
+  "@@last_modified": "2020-06-21T16:26:57.695331",
+  "login": "Iniciar sesión",
+  "@login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "writePin": "Escribir pin",
+  "@writePin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pin": "Pin",
+  "@pin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "loginInstructions": "Completa el login",
+  "@loginInstructions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "emailHelper": "Debe colocar un email",
+  "@emailHelper": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "Email",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phone": "Teléfono",
+  "@phone": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "information": "Información",
+  "@information": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "warning": "Advertencia",
+  "@warning": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "alert": "Alerta",
+  "@alert": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "next": "Siguiente",
+  "@next": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "done": "Hecho",
+  "@done": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "finish": "Finalizar",
+  "@finish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "accept": "Aceptar",
+  "@accept": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "optional": "Opcional",
+  "@optional": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "Cancelar",
+  "@cancel": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
