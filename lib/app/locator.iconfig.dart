@@ -8,6 +8,7 @@ import 'package:webeoapp/services/api.dart';
 import 'package:webeoapp/services/app_model_service.dart';
 import 'package:webeoapp/services/third_parties_service_module.dart';
 import 'package:stacked_services/stacked_services.dart';
+import 'package:webeoapp/services/google_sign_service.dart';
 import 'package:webeoapp/services/media_services.dart';
 import 'package:webeoapp/services/secure_storage_service.dart';
 import 'package:webeoapp/services/storage_service.dart';
@@ -21,6 +22,7 @@ void $initGetIt(GetIt g, {String environment}) {
   g.registerLazySingleton<AppModel>(() => AppModel());
   g.registerLazySingleton<DialogService>(
       () => thirdPartyServicesModule.dialogService);
+  g.registerLazySingleton<GoogleSign>(() => GoogleSign());
   g.registerLazySingleton<MediaService>(() => MediaService());
   g.registerLazySingleton<NavigationService>(
       () => thirdPartyServicesModule.navigationService);

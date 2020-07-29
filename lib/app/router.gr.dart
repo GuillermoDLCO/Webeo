@@ -9,13 +9,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:webeoapp/ui/views/welcome/welcome_view.dart';
 import 'package:webeoapp/ui/views/login/login_view.dart';
+import 'package:webeoapp/ui/views/home/home_view.dart';
 
 abstract class Routes {
   static const welcomeViewRoute = '/';
   static const loginViewRoute = '/login-view-route';
+  static const homeViewRoute = '/home-view-route';
   static const all = {
     welcomeViewRoute,
     loginViewRoute,
+    homeViewRoute,
   };
 }
 
@@ -38,6 +41,11 @@ class Router extends RouterBase {
       case Routes.loginViewRoute:
         return MaterialPageRoute<dynamic>(
           builder: (context) => LoginView(),
+          settings: settings,
+        );
+      case Routes.homeViewRoute:
+        return MaterialPageRoute<dynamic>(
+          builder: (context) => HomeView(),
           settings: settings,
         );
       default:

@@ -21,11 +21,12 @@ class LoginView extends StatelessWidget {
             backgroundColor: Colors.black,
             automaticallyImplyLeading: false,
           ),
-          backgroundColor: PalleteColor.backgroundColor,
+          backgroundColor: Colors.black,
           body: Container(
             height: double.infinity,
+            margin: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.2),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0), topRight: Radius.circular(15)),
+              borderRadius: BorderRadius.only(topLeft: Radius.circular(20.0), topRight: Radius.circular(20.0)),
               color: Colors.white,
             ),
             child: Form(
@@ -43,7 +44,6 @@ class _BodyLogin extends HookViewModelWidget<LoginViewModel> {
   _BodyLogin({
     Key key,
   }) : super(key: key);
-
   @override
   Widget buildViewModelWidget(BuildContext context, LoginViewModel model) {
     final TextEditingController usernameController = useTextEditingController();
@@ -88,7 +88,7 @@ class _BodyLogin extends HookViewModelWidget<LoginViewModel> {
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: GoogleButton(action: () {}),
+            child: GoogleButton(action: () => model.signingGoogle()),
           ),
           Padding(
             padding: const EdgeInsets.only(bottom: 20.0),

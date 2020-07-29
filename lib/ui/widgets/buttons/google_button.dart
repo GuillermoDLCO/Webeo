@@ -9,33 +9,14 @@ class GoogleButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      type: MaterialType.transparency,
+      elevation: 10,
+      color: Colors.transparent,
+      type: MaterialType.circle,
       child: InkResponse(
         onTap: action ?? () {},
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 12.0),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.all(
-                Radius.circular(25),
-              ),
-              border: Border.all(color: Colors.black, width: 0.1),
-              boxShadow: [
-                BoxShadow(
-                  blurRadius: 2.0,
-                  color: Colors.black26,
-                  offset: Offset(
-                    2.0,
-                    2.0,
-                  ),
-                  spreadRadius: 2.0,
-                ),
-              ],
-            ),
-            child: Container(width: 50.0),
-          ),
+          padding: const EdgeInsets.all(1.0),
+          child: SvgPicture.asset('assets/social/google.svg'),
         ),
       ),
     );
